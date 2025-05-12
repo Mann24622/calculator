@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
 
       ),
-      body: Center(child: Text('hello india' , style: TextStyle(fontSize: 25),)),
+      body: Center(child: Icon(Icons.home,size: 50,)),
     );
   }
 }
